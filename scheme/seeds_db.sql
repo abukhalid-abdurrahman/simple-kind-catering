@@ -23,3 +23,7 @@ INSERT INTO client_catering_point (client_id, catering_point_id, day_of_week) VA
 INSERT INTO client_catering_point (client_id, catering_point_id, day_of_week) VALUES (3, 5, 6);
 INSERT INTO client_catering_point (client_id, catering_point_id, day_of_week) VALUES (6, 1, 6);
 INSERT INTO client_catering_point (client_id, catering_point_id, day_of_week, is_deleted) VALUES (6, 5, 3, TRUE);
+
+INSERT INTO client_catering_change_history (client_id, catering_point_id, event) VALUES (1, 2, 'Начало работы.');
+INSERT INTO client_catering_change_history (client_id, catering_point_id, event) VALUES (2, 4, 'Установка дней в ПН, СР, ПТ.');
+INSERT INTO client_catering_change_history (client_id, catering_point_id, event) VALUES (5, 5, 'Установка дней в ЧТ, ПТ.');

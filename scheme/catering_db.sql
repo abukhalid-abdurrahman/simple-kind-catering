@@ -40,7 +40,7 @@ CREATE TABLE client_catering_change_history (
     created_at DATE NOT NULL DEFAULT now(),
     client_id INTEGER NOT NULL,
     catering_point_id INTEGER NOT NULL,
-    event INTEGER NOT NULL,
+    event TEXT NOT NULL,
     CONSTRAINT fk_client
         FOREIGN KEY (client_id)
             REFERENCES client(id),

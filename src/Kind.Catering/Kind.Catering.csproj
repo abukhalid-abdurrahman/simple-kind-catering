@@ -13,7 +13,6 @@
       <Folder Include="CrossCuttingConcerns\Extensions" />
       <Folder Include="Infrastructure" />
       <Folder Include="Presentation" />
-      <Folder Include="UseCase" />
     </ItemGroup>
 
 </Project>

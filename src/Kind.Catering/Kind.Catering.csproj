@@ -9,4 +9,11 @@
         <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="CrossCuttingConcerns\Extensions" />
+      <Folder Include="Infrastructure" />
+      <Folder Include="Presentation" />
+      <Folder Include="UseCase" />
+    </ItemGroup>
+
 </Project>

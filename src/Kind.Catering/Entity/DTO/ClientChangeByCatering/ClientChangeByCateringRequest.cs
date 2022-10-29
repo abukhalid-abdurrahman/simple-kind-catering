@@ -1,7 +1,7 @@
 ﻿namespace Kind.Catering.Entity.DTO.ClientChangeByCatering
 {
-    public class ClientChangeByCateringRequest
+    public sealed class ClientChangeByCateringRequest
     {
-        public int CateringPointId { get; set; }
+        public long? CateringPointId { get; set; }
     }
 }

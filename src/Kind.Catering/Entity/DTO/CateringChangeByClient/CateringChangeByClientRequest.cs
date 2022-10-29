@@ -2,6 +2,6 @@
 {
     public class CateringChangeByClientRequest
     {
-        public long ClientId { get; set; }
+        public long? ClientId { get; set; }
     }
 }

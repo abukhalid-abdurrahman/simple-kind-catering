@@ -2,7 +2,7 @@
 
 namespace Kind.Catering.Entity.DTO
 {
-    public sealed class Response<T> where T : new()
+    public sealed class Response<T>
     {
         public bool IsSuccessfully { get; set; }
         public string Message { get; set; }

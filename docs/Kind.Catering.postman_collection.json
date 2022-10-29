@@ -1,0 +1,281 @@
+{
+	"info": {
+		"_postman_id": "d0638b6b-d7c7-430f-94f6-294b2e23f093",
+		"name": "Kind.Catering",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "API",
+			"item": [
+				{
+					"name": "History",
+					"item": [
+						{
+							"name": "ChangeByClient",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "text/plain"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/api/History/ChangeByClient?clientId=2",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"History",
+										"ChangeByClient"
+									],
+									"query": [
+										{
+											"key": "clientId",
+											"value": "2"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/History/ChangeByClient?clientId=-49930553",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"History",
+												"ChangeByClient"
+											],
+											"query": [
+												{
+													"key": "clientId",
+													"value": "-49930553"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"isSuccessfully\": false,\n  \"message\": \"dolore\",\n  \"payload\": [\n    {\n      \"name\": \"anim incididunt laboris \",\n      \"date\": \"2000-10-26T10:19:50.146Z\",\n      \"event\": \"tempor laboris\"\n    },\n    {\n      \"name\": \"magna deserunt eiusmod\",\n      \"date\": \"1978-06-27T12:20:51.791Z\",\n      \"event\": \"quis cupidatat Excepteur ullamco\"\n    }\n  ]\n}"
+								}
+							]
+						},
+						{
+							"name": "ChangeByCatering",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "text/plain"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/api/History/ChangeByCatering?cateringId=-49930553",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"History",
+										"ChangeByCatering"
+									],
+									"query": [
+										{
+											"key": "cateringId",
+											"value": "-49930553"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/History/ChangeByCatering?cateringId=-49930553",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"History",
+												"ChangeByCatering"
+											],
+											"query": [
+												{
+													"key": "cateringId",
+													"value": "-49930553"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"isSuccessfully\": false,\n  \"message\": \"dolore\",\n  \"payload\": [\n    {\n      \"name\": \"anim incididunt laboris \",\n      \"date\": \"2000-10-26T10:19:50.146Z\",\n      \"event\": \"tempor laboris\"\n    },\n    {\n      \"name\": \"magna deserunt eiusmod\",\n      \"date\": \"1978-06-27T12:20:51.791Z\",\n      \"event\": \"quis cupidatat Excepteur ullamco\"\n    }\n  ]\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Catering List",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "text/plain"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/api/Catering",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"Catering"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/Catering",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"Catering"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"isSuccessfully\": false,\n  \"message\": \"culpa eu officia reprehenderit\",\n  \"payload\": [\n    {\n      \"cateringPointId\": -76120972,\n      \"cateringPointName\": \"anim officia exercitation\"\n    },\n    {\n      \"cateringPointId\": -49618626,\n      \"cateringPointName\": \"aliqua incididunt\"\n    }\n  ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Client List",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "text/plain"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/api/Client",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"Client"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/Client",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"Client"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"isSuccessfully\": false,\n  \"message\": \"dolor sint\",\n  \"payload\": [\n    {\n      \"clientId\": -57946422,\n      \"clientName\": \"consequat irure laborum\"\n    },\n    {\n      \"clientId\": 24115657,\n      \"clientName\": \"labore nulla do proident\"\n    }\n  ]\n}"
+						}
+					]
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "http://localhost:5000"
+		}
+	]
+}
